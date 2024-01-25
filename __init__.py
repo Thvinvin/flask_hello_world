@@ -11,7 +11,7 @@ def hello_world():
 
 @app.route('/fr/')
 def Bonjour():
-    return render_template('Bonjour.html')
+    return "Bonjour la team"
                                                                                                                                        
 if __name__ == "__main__":
   app.run(debug=True)
